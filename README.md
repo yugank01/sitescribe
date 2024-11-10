@@ -1,4 +1,5 @@
 
+
 # Backend - Site Scraping & Sentiment Analysis API
 
 ## Overview
@@ -17,16 +18,16 @@ Before running the application, make sure you have the following installed:
 
 ### Step 1: Clone the Repository
 
-
+```bash
 git clone <repository-url>
 cd <repository-directory>
-
+```
 
 ### Step 2: Set Up a Virtual Environment (Optional but Recommended)
 
 It’s recommended to set up a virtual environment to keep dependencies isolated.
 
-
+```bash
 # For Linux/MacOS
 python3 -m venv venv
 source venv/bin/activate
@@ -34,15 +35,15 @@ source venv/bin/activate
 # For Windows
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 
 ### Step 3: Install Requirements
 
 Install the required dependencies using `pip`.
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 This will install the following dependencies:
 - `fastapi` - The web framework for building APIs.
@@ -56,8 +57,9 @@ This will install the following dependencies:
 
 To start the backend server, use the following command:
 
+```bash
 uvicorn app.main:app --reload
-
+```
 
 The server will run locally at `http://127.0.0.1:8000`. You can now test the APIs using tools like **Postman** or **curl**.
 
@@ -228,5 +230,3 @@ The server will run locally at `http://127.0.0.1:8000`. You can now test the API
    ```
 
 ---
-```
-
