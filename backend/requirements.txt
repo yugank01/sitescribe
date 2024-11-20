@@ -10,4 +10,8 @@ flask-cors
 requests
 bs4
 transformers
+<<<<<<< Updated upstream
 pytorch
+=======
+pytorch
+>>>>>>> Stashed changes
